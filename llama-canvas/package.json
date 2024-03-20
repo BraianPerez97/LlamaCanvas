@@ -10,6 +10,7 @@
   "dependencies": {
     "@trbn/jsoncanvas": "^1.0.6",
     "core-js": "^3.8.3",
+    "path": "^0.12.7",
     "vue": "^3.2.13"
   },
   "devDependencies": {
