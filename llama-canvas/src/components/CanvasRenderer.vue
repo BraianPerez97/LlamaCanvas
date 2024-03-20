@@ -1,5 +1,5 @@
 <template>
-  <div ref="canvasContainer" styles="width: 100%; height 100%;"></div>
+  <div ref="canvasContainer" class="canvas-container"></div>
 </template>
 
 <script>
@@ -10,7 +10,7 @@ export default {
     // Initialize JSONCanvas
     const canvas = new JSONCanvas();
 
-    // Example data (replace with your actual data)
+    // Example data (replace with your actual data. This is my hardcoded data to test functionality.)
     const nodes = [
       { id: 'node1', type: 'text', text: 'Hello, World!', x: 100, y: 100, width: 100, height: 50 },
       { id: 'node2', type: 'text', text: 'Hello, World 2!', x: 300, y: 200, width: 100, height: 50 },
@@ -39,14 +39,13 @@ export default {
     }
   }
 };
-
 </script>
 
 <style scoped>
 .canvas-container {
   position: relative;
-  width: 800px;
-  height: 600px;
+  width: 100%; 
+  height: 100%; 
   background-color: #FFFFFF;
   border: 1px solid #ccc;
   border-radius: 5px;
