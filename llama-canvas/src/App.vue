@@ -16,5 +16,11 @@ export default {
 </script>
 
 <style>
-/* Add any global styles here */
+#app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 </style>
